@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="primary_light">#E3F2FD</color>
+    <color name="color_accent">#00838F</color>
+
+    <color name="surface_background">#F5F7FA</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="notice_background">#FFF8E1</color>
+    <color name="notice_stroke">#FFE082</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#4B5563</color>
+    <color name="text_accent">#0D47A1</color>
+
+    <!-- Standard Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

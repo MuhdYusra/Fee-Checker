@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fee Checker</string>
+    <string name="app_subtitle">Excess Baggage Fee Estimator</string>
+
+    <!-- Toolbar Menu -->
+    <string name="menu_share">Share App</string>
+    <string name="menu_about">About</string>
+
+    <!-- Form Labels -->
+    <string name="title_baggage_details">Baggage Details</string>
+    <string name="label_baggage_weight">Baggage Weight (kg)</string>
+    <string name="hint_baggage_weight">Enter weight in kg (e.g. 25.5)</string>
+    <string name="label_ticket_class">Ticket Class</string>
+    <string name="radio_economy">Economy Class (20 kg allowance)</string>
+    <string name="radio_business">Business Class (40 kg allowance)</string>
+    <string name="label_excess_rate">Excess Baggage Rate per kg (RM)</string>
+    <string name="hint_excess_rate">Enter rate per kg (e.g. 15.00)</string>
+
+    <!-- Action Buttons -->
+    <string name="btn_calculate">Calculate Fee</string>
+    <string name="btn_clear">Clear</string>
+
+    <!-- Instructions / Guidelines -->
+    <string name="title_notice">Important Rules &amp; Allowances</string>
+    <string name="text_notice_details">• Economy Allowance: 20 kg | Business Allowance: 40 kg\n• Excess Weight = Baggage Weight - Allowance (Never negative)\n• Excess Charge = Excess Weight × Rate per kg\n• Total Payable = Excess Charge + 8% Service Tax</string>
+    <string name="desc_info_icon">Information Icon</string>
+
+    <!-- Results Section -->
+    <string name="title_results">Estimation Results</string>
+    <string name="label_excess_weight">Excess Baggage Weight:</string>
+    <string name="label_excess_charge">Excess Baggage Charge:</string>
+    <string name="label_service_tax">Service Tax (8%):</string>
+    <string name="label_total_payable">Total Amount Payable:</string>
+
+    <!-- Default formatted result placeholders -->
+    <string name="default_weight">0.00 kg</string>
+    <string name="default_currency">RM 0.00</string>
+    <string name="val_excess_weight">%1$.2f kg</string>
+    <string name="val_excess_charge">RM %1$.2f</string>
+    <string name="val_service_tax">RM %1$.2f</string>
+    <string name="val_total_payable">RM %1$.2f</string>
+
+    <!-- Validation Errors -->
+    <string name="err_empty_weight">Please enter baggage weight</string>
+    <string name="err_invalid_weight">Weight must be greater than 0</string>
+    <string name="err_empty_rate">Please enter excess baggage rate</string>
+    <string name="err_invalid_rate">Rate must be greater than 0</string>
+
+    <!-- About Page -->
+    <string name="title_about">About App</string>
+    <string name="about_app_description">Fee Checker is a mobile application developed to calculate excess baggage fees and 8% service tax for air travel passengers based on ticket class and baggage weight.</string>
+
+    <string name="section_developer">Developer Details</string>
+    <string name="developer_name">Developer: Yusra</string>
+    <string name="developer_student_no">Student No: 2023123456</string>
+    <string name="developer_group">Group: RCS2405A</string>
+    <string name="developer_programme">Programme Code: CS240</string>
+
+    <string name="section_app_info">Application Information</string>
+    <string name="app_version">Version 1.0.0</string>
+    <string name="copyright_statement">© 2025 Fee Checker. All Rights Reserved.</string>
+    <string name="github_url">https://github.com/yourusername/feechecker</string>
+    <string name="label_github_repo">GitHub Repository / Application Website:</string>
+
+    <!-- Share Intent -->
+    <string name="share_text">Check out Fee Checker - Mobile app for estimating excess baggage fee for air travel!\nGitHub: https://github.com/yourusername/feechecker</string>
+    <string name="share_title">Share Fee Checker via</string>
+</resources>
